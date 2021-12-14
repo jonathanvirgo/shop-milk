@@ -135,3 +135,11 @@
     </div>
     <!-- Contact Form End -->
 @stop
+
+@section('pageJs')
+    <script>
+        $( document ).ready(function() {
+            $('.hero__item').css("display", "none");
+        });
+    </script>
+@stop

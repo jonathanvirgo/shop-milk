@@ -13,11 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home.index');
-});
+Route::get('/', 'App\Http\Controllers\MainController@getIndex');
 
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+// Route::post('send-contact','Controller@contact')->name('send-contact');
+
+Route::post('search','App\Http\Controllers\MainController@search')->name('search');
+
+Route::get('/{slug}','App\Http\Controllers\MainController@direction');

@@ -2900,6 +2900,18 @@ ol {
 	letter-spacing: 2px;
 }
 
+.backBtn{
+	margin-top: 15px;
+	display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    padding: 10px 30px;
+    padding-left: 50px;
+    font-weight: bold;
+    background: url(../img/home.png) no-repeat 20px;
+    background-color: #78b43d;
+}
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
 @media only screen and (min-width: 1200px) {

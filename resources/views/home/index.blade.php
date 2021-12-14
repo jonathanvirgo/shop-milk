@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('page') {{"Trang chủ"}}
+@section('page') {{"Home"}}
 @stop
 
 @section('description')
