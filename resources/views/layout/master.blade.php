@@ -34,7 +34,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{asset('css/reset.css')}}">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/swiper-bundle.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/toastr.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/elegant-icons.css')}}">
@@ -63,12 +63,12 @@
 
     <script src="{{ URL::asset('js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ URL::asset('js/swiper.min.js') }}"></script>
+    <script src="{{ URL::asset('js/swiper-bundle.min.js') }}"></script>
     <script src="{{ URL::asset('js/toastr.min.js') }}"></script>
     <script src="{{ URL::asset('js/jquery.nice-select.min.js') }}"></script>
     <script src="{{ URL::asset('js/jquery.slicknav.js') }}"></script>
     <script src="{{ URL::asset('js/jquery-ui.min.js') }}"></script>
-    <script src="{{ URL::asset('js/mixitup.min.js') }}"></script>
+    <!-- <script src="{{ URL::asset('js/mixitup.min.js') }}"></script> -->
     <script src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
     <script src="{{ URL::asset('js/main.js') }}"></script>
 
