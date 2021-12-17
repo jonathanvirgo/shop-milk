@@ -36,13 +36,13 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/swiper-bundle.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/toastr.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/elegant-icons.css')}}">
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/jquery-ui.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/slicknav.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
     @section('pageCss')
     @show

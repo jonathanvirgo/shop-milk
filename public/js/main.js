@@ -103,61 +103,61 @@
     /*--------------------------
         Latest Product Slider
     ----------------------------*/
-    $(".latest-product__slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 1,
-        dots: false,
-        nav: true,
-        navText: ["<span class='fa fa-angle-left'><span/>", "<span class='fa fa-angle-right'><span/>"],
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true
-    });
+    // $(".latest-product__slider").owlCarousel({
+    //     loop: true,
+    //     margin: 0,
+    //     items: 1,
+    //     dots: false,
+    //     nav: true,
+    //     navText: ["<span class='fa fa-angle-left'><span/>", "<span class='fa fa-angle-right'><span/>"],
+    //     smartSpeed: 1200,
+    //     autoHeight: false,
+    //     autoplay: true
+    // });
 
     /*-----------------------------
         Product Discount Slider
     -------------------------------*/
-    $(".product__discount__slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 3,
-        dots: true,
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true,
-        responsive: {
+    // $(".product__discount__slider").owlCarousel({
+    //     loop: true,
+    //     margin: 0,
+    //     items: 3,
+    //     dots: true,
+    //     smartSpeed: 1200,
+    //     autoHeight: false,
+    //     autoplay: true,
+    //     responsive: {
 
-            320: {
-                items: 1,
-            },
+    //         320: {
+    //             items: 1,
+    //         },
 
-            480: {
-                items: 2,
-            },
+    //         480: {
+    //             items: 2,
+    //         },
 
-            768: {
-                items: 2,
-            },
+    //         768: {
+    //             items: 2,
+    //         },
 
-            992: {
-                items: 3,
-            }
-        }
-    });
+    //         992: {
+    //             items: 3,
+    //         }
+    //     }
+    // });
 
     /*---------------------------------
         Product Details Pic Slider
     ----------------------------------*/
-    $(".product__details__pic__slider").owlCarousel({
-        loop: true,
-        margin: 20,
-        items: 4,
-        dots: true,
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true
-    });
+    // $(".product__details__pic__slider").owlCarousel({
+    //     loop: true,
+    //     margin: 20,
+    //     items: 4,
+    //     dots: true,
+    //     smartSpeed: 1200,
+    //     autoHeight: false,
+    //     autoplay: true
+    // });
 
     /*-----------------------
 		Price Range Slider
@@ -225,8 +225,11 @@
         slidesPerView: 3,
         spaceBetween: 100,
         pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
+            el: '.swiper-pagination'
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
         },
         breakpoints: {
             // when window width is >= 320px
@@ -245,6 +248,16 @@
                 spaceBetween: 10
             }
         }
+    });
+
+    var slide_swiper = new Swiper('.slide__swiper', {
+        slidesPerView: 1,
+        spaceBetween: 100,
+        pagination: {
+            el: '.swiper-pagination'
+        },
+        autoplay: {delay: 5000},
+        loop: true
     });
 
 })(jQuery);
