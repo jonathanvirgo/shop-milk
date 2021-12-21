@@ -16,7 +16,7 @@
     {{--@if($setting->favicon)--}}
     {{--    <link rel="shortcut icon" href="{{ $setting->favicon }}" />--}}
     {{--@else--}}
-       <link rel="shortcut icon" href="{{ asset('img/logo/favicon.ico') }}" />
+       <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" />
     {{--@endif--}}
 
     <meta itemprop="name" content="@yield('propName')">

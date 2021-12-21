@@ -35,7 +35,7 @@
 
 @section('content')
 <!-- Blog Details Hero Begin -->
-<section class="blog-details-hero set-bg" data-setbg="img/blog/details/details-hero.jpg">
+<!-- <section class="blog-details-hero set-bg" data-setbg="img/blog/details/details-hero.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -50,14 +50,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Blog Details Hero End -->
 
     <!-- Blog Details Section Begin -->
     <section class="blog-details spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-5 order-md-1 order-2">
+                <!-- <div class="col-lg-4 col-md-5 order-md-1 order-2">
                     <div class="blog__sidebar">
                         <div class="blog__sidebar__search">
                             <form action="#">
@@ -119,8 +119,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8 col-md-7 order-md-1 order-1">
+                </div> -->
+                <div class="col-md-9">
                     <div class="blog__details__text">
                         <img src="img/blog/details/details-pic.jpg" alt="">
                         <p>Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
@@ -141,33 +141,38 @@
                     <div class="blog__details__content">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="blog__details__author">
-                                    <div class="blog__details__author__pic">
-                                        <img src="img/blog/details/details-author.jpg" alt="">
-                                    </div>
-                                    <div class="blog__details__author__text">
-                                        <h6>Michael Scofield</h6>
-                                        <span>Admin</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
                                 <div class="blog__details__widget">
                                     <ul>
                                         <li><span>Categories:</span> Food</li>
                                         <li><span>Tags:</span> All, Trending, Cooking, Healthy Food, Life Style</li>
                                     </ul>
-                                    <div class="blog__details__social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-envelope"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="title-box-category">Xem nhiều</div>
+                    <article class="item-news full-thumb">
+                        <div class="thumb-art">   
+                        <img  src="{{URL::asset('img/Phan-Quoc-Viet-5988-1639841840.jpg')}}">
+                        </div>
+                        <div class="title-news">
+                            <a href="#">Tổng giám đốc Công ty Cổ phần công nghệ Việt Á bị khởi tố</a>
+			            </div> 
+                    </article>
+                    <article class="item-news">
+                        <div class="title-news">
+                            <a href="#">5 điều cần biết khi nhìn vào thẻ bảo hiểm y tế</a>
+                            <span class="meta-news"></span>
+                        </div>
+                    </article>
+                    <article class="item-news">
+                        <div class="title-news">
+                            <a href="#">5 điều cần biết khi nhìn vào thẻ bảo hiểm y tế</a>
+                            <span class="meta-news"></span>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>

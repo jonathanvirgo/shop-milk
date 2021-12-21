@@ -35,7 +35,7 @@
 
 @section('content')
    <!-- Breadcrumb Section Begin -->
-   <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+   <!-- <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -49,14 +49,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Breadcrumb Section End -->
 
     <!-- Blog Section Begin -->
-    <section class="blog spad">
+    <section class="blog">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-5">
+                <div class="col-lg-3 col-md-4">
                     <div class="blog__sidebar">
                         <div class="blog__sidebar__search">
                             <form action="#">
@@ -74,7 +74,7 @@
                                 <li><a href="#">Travel (10)</a></li>
                             </ul>
                         </div>
-                        <div class="blog__sidebar__item">
+                        <div class="blog__sidebar__item recent__news">
                             <h4>Recent News</h4>
                             <div class="blog__sidebar__recent">
                                 <a href="#" class="blog__sidebar__recent__item">
@@ -106,7 +106,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="blog__sidebar__item">
+                        <div class="blog__sidebar__item search__news">
                             <h4>Search By</h4>
                             <div class="blog__sidebar__item__tags">
                                 <a href="#">Apple</a>
@@ -119,9 +119,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-7">
+                <div class="col-lg-9 col-md-8">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
                                     <img src="img/blog/blog-2.jpg" alt="">
@@ -134,11 +134,11 @@
                                     <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
                                     <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
                                     <img src="img/blog/blog-3.jpg" alt="">
@@ -151,11 +151,11 @@
                                     <h5><a href="#">Visit the clean farm in the US</a></h5>
                                     <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
                                     <img src="img/blog/blog-1.jpg" alt="">
@@ -168,11 +168,11 @@
                                     <h5><a href="#">Cooking tips make cooking simple</a></h5>
                                     <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
                                     <img src="img/blog/blog-4.jpg" alt="">
@@ -185,11 +185,11 @@
                                     <h5><a href="#">Cooking tips make cooking simple</a></h5>
                                     <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
                                     <img src="img/blog/blog-4.jpg" alt="">
@@ -202,11 +202,11 @@
                                     <h5><a href="#">The Moment You Need To Remove Garlic From The Menu</a></h5>
                                     <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="blog__item">
                                 <div class="blog__item__pic">
                                     <img src="img/blog/blog-6.jpg" alt="">
@@ -219,7 +219,7 @@
                                     <h5><a href="#">Cooking tips make cooking simple</a></h5>
                                     <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam
                                         quaerat </p>
-                                    <a href="#" class="blog__btn">READ MORE <span class="arrow_right"></span></a>
+                                    
                                 </div>
                             </div>
                         </div>

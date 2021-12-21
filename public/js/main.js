@@ -221,8 +221,8 @@
         $button.parent().find('input').val(newVal);
     });
 
-    var featured_swiper = new Swiper('.featured__swiper', {
-        slidesPerView: 3,
+    var category_swiper = new Swiper('.category__swiper', {
+        slidesPerView: 6,
         spaceBetween: 100,
         pagination: {
             el: '.swiper-pagination'
@@ -235,29 +235,19 @@
             // when window width is >= 320px
             320: {
                 slidesPerView: 1,
-                spaceBetween: 0
+                spaceBetween: 10
             },
             // when window width is >= 480px
             576: {
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 10
             },
             // when window width is >= 640px
             992: {
-                slidesPerView: 3,
+                slidesPerView: 5,
                 spaceBetween: 10
             }
         }
-    });
-
-    var slide_swiper = new Swiper('.slide__swiper', {
-        slidesPerView: 1,
-        spaceBetween: 100,
-        pagination: {
-            el: '.swiper-pagination'
-        },
-        autoplay: {delay: 5000},
-        loop: true
     });
 
 })(jQuery);

@@ -35,7 +35,7 @@
 
 @section('content')
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+    <!-- <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -49,11 +49,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Breadcrumb Section End -->
 
     <!-- Contact Section Begin -->
-    <section class="contact spad">
+    <section class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
