@@ -57,25 +57,32 @@
     <section class="product-details">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-md-5">
                     <div class="product__details__pic">
-                        <div class="product__details__pic__item">
-                            <img class="product__details__pic__item--large"
-                                src="img/product/details/product-details-1.jpg" alt="">
-                        </div>
-                        <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/thumb-1.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/thumb-2.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/thumb-3.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/thumb-4.jpg" alt="">
+                        <div class="product__details__pic__item" style="background-image:url('img/product/details/product-details-1.jpg')"></div>
+                        <div class="product__details__pic__swiper swiper">
+                             <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="img/product/details/thumb-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product/details/thumb-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product/details/thumb-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/product/details/thumb-4.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-md-7">
                     <div class="product__details__text">
                         <h3>Vetgetable’s Package</h3>
                         <div class="product__details__price">$50.00</div>
@@ -90,19 +97,9 @@
                             </div>
                         </div>
                         <a href="#" class="primary-btn">ADD TO CARD</a>
-                        <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         <ul>
                             <li><b>Availability</b> <span>In Stock</span></li>
-                            <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
                             <li><b>Weight</b> <span>0.5 kg</span></li>
-                            <li><b>Share on</b>
-                                <div class="share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -131,6 +128,18 @@
                                 Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed
                                 porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum
                                 sed sit amet dui. Proin eget tortor risus.</p>
+                        </div>
+                    </div>
+                    <div class="blog__details__content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="blog__details__widget">
+                                    <ul>
+                                        <li><span>Categories:</span> Food</li>
+                                        <li><span>Tags:</span> All, Trending, Cooking, Healthy Food, Life Style</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -245,8 +254,36 @@
 @section('pageJs')
     <script>
         var related_product_swiper = new Swiper('.related__product__swiper', {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            autoplay: {delay: 4000},
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                // when window width is >= 480px
+                576: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 5,
+                    spaceBetween: 10
+                }
+            }
+        });
+
+        var product_details_pic_swiper = new Swiper('.product__details__pic__swiper', {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 10,
             autoplay: {delay: 4000},
             loop: true,
             navigation: {
@@ -266,7 +303,7 @@
                 },
                 // when window width is >= 640px
                 992: {
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                     spaceBetween: 10
                 }
             }

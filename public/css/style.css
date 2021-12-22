@@ -1547,9 +1547,10 @@ ol {
 }
 
 .product__item__pic {
-	height: 270px;
+	height: 230px;
 	position: relative;
 	overflow: hidden;
+	background-size: contain;
 }
 
 .product__item__pic__hover {
@@ -1677,11 +1678,15 @@ ol {
 
 .product__details__pic__item {
 	margin-bottom: 20px;
+	height: 100%;
+	background-size: 100% 100%;;
+	background-repeat: no-repeat;
 }
 
-.product__details__pic__item img {
+/* .product__details__pic__item img {
 	min-width: 100%;
-}
+	height: 100%;
+} */
 
 .product__details__pic__slider img {
 	cursor: pointer;
@@ -1822,7 +1827,7 @@ ol {
 .product__details__tab .nav-tabs:before {
 	position: absolute;
 	left: 0;
-	top: 12px;
+	top: 50px;
 	height: 1px;
 	width: 100%;
 	background: #ebebeb;
@@ -1849,7 +1854,7 @@ ol {
 }
 
 .product__details__tab .product__details__tab__desc {
-	padding-top: 44px;
+	padding-top: 70px;
 }
 
 .product__details__tab .product__details__tab__desc h6 {
@@ -2072,7 +2077,7 @@ ol {
 -----------------------*/
 
 .checkout {
-	padding-top: 80px;
+	padding-top: 20px;
 	padding-bottom: 60px;
 }
 
@@ -2520,12 +2525,12 @@ ol {
 -----------------------*/
 
 .related-blog {
-	padding-top: 70px;
-	padding-bottom: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .related-blog-title {
-	margin-bottom: 70px;
+	margin-bottom: 60px;
 }
 
 .blog-details {
@@ -3000,6 +3005,17 @@ ol {
 }
 .title-news a{
 	color: #222;
+}
+
+.product__details__pic{
+	height: 370px;
+	background-size: contain;
+}
+
+.blog__title{
+	font-size: 32px;
+    font-weight: bold;
+	margin-bottom: 35px;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/

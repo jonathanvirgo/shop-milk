@@ -121,6 +121,10 @@
                     </div>
                 </div> -->
                 <div class="col-md-9">
+                    <div class="blog__title">
+                        The Moment You Need To Remove Garlic From The Menu
+                    </div>
+
                     <div class="blog__details__text">
                         <img src="img/blog/details/details-pic.jpg" alt="">
                         <p>Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
@@ -152,27 +156,38 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="title-box-category">Xem nhiều</div>
-                    <article class="item-news full-thumb">
-                        <div class="thumb-art">   
-                        <img  src="{{URL::asset('img/Phan-Quoc-Viet-5988-1639841840.jpg')}}">
+                <div class="blog__sidebar__item recent__news">
+                            <h4>Mới nhất</h4>
+                            <div class="blog__sidebar__recent">
+                                <a href="#" class="blog__sidebar__recent__item">
+                                    <div class="blog__sidebar__recent__item__pic">
+                                        <img src="img/blog/sidebar/sr-1.jpg" alt="">
+                                    </div>
+                                    <div class="blog__sidebar__recent__item__text">
+                                        <h6>09 Kinds Of Vegetables<br /> Protect The Liver</h6>
+                                        <span>MAR 05, 2019</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="blog__sidebar__recent__item">
+                                    <div class="blog__sidebar__recent__item__pic">
+                                        <img src="img/blog/sidebar/sr-2.jpg" alt="">
+                                    </div>
+                                    <div class="blog__sidebar__recent__item__text">
+                                        <h6>Tips You To Balance<br /> Nutrition Meal Day</h6>
+                                        <span>MAR 05, 2019</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="blog__sidebar__recent__item">
+                                    <div class="blog__sidebar__recent__item__pic">
+                                        <img src="img/blog/sidebar/sr-3.jpg" alt="">
+                                    </div>
+                                    <div class="blog__sidebar__recent__item__text">
+                                        <h6>4 Principles Help You Lose <br />Weight With Vegetables</h6>
+                                        <span>MAR 05, 2019</span>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="title-news">
-                            <a href="#">Tổng giám đốc Công ty Cổ phần công nghệ Việt Á bị khởi tố</a>
-			            </div> 
-                    </article>
-                    <article class="item-news">
-                        <div class="title-news">
-                            <a href="#">5 điều cần biết khi nhìn vào thẻ bảo hiểm y tế</a>
-                            <span class="meta-news"></span>
-                        </div>
-                    </article>
-                    <article class="item-news">
-                        <div class="title-news">
-                            <a href="#">5 điều cần biết khi nhìn vào thẻ bảo hiểm y tế</a>
-                            <span class="meta-news"></span>
-                        </div>
-                    </article>
                 </div>
             </div>
         </div>
@@ -189,51 +204,76 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="img/blog/blog-1.jpg" alt="">
+                <div class="related__blog__swiper swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="blog__item">
+                                <div class="blog__item__pic">
+                                    <img src="img/blog/blog-1.jpg" alt="">
+                                </div>
+                                <div class="blog__item__text">
+                                    <ul>
+                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-comment-o"></i> 5</li>
+                                    </ul>
+                                    <h5><a href="#">Cooking tips make cooking simple</a></h5>
+                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Cooking tips make cooking simple</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                        <div class="swiper-slide">
+                            <div class="blog__item">
+                                <div class="blog__item__pic">
+                                    <img src="img/blog/blog-3.jpg" alt="">
+                                </div>
+                                <div class="blog__item__text">
+                                    <ul>
+                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-comment-o"></i> 5</li>
+                                    </ul>
+                                    <h5><a href="#">Visit the clean farm in the US</a></h5>
+                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog__item">
+                                <div class="blog__item__pic">
+                                    <img src="img/blog/blog-2.jpg" alt="">
+                                </div>
+                                <div class="blog__item__text">
+                                    <ul>
+                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-comment-o"></i> 5</li>
+                                    </ul>
+                                    <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blog__item">
+                                <div class="blog__item__pic">
+                                    <img src="img/blog/blog-3.jpg" alt="">
+                                </div>
+                                <div class="blog__item__text">
+                                    <ul>
+                                        <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                                        <li><i class="fa fa-comment-o"></i> 5</li>
+                                    </ul>
+                                    <h5><a href="#">Visit the clean farm in the US</a></h5>
+                                    <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="img/blog/blog-2.jpg" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="img/blog/blog-3.jpg" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Visit the clean farm in the US</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
                 </div>
             </div>
         </div>
@@ -242,5 +282,30 @@
 @stop
 
 @section('pageJs')
-
+    <script>
+        var related_blog_swiper = new Swiper('.related__blog__swiper', {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                },
+                // when window width is >= 480px
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 10
+                },
+                // when window width is >= 640px
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 10
+                }
+            }
+        });
+    </script>
 @stop
